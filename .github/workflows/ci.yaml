@@ -2,7 +2,7 @@ name: ci-go-workflow
 on: [push]
 jobs:
   check-application:
-    runs-on: ubuntu-lasted
+    runs-on: ubuntu-latesd
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-go@v2
